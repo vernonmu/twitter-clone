@@ -209,6 +209,7 @@ body {
 	}
 
 	.stats {
+		display:none;
 		margin: 12px 0 12px 42px;
 		border-top: 1px solid #e8e8e8;
 	}
@@ -249,6 +250,7 @@ body {
 		}
 
 		.reply {
+			display:none;
 			position: relative;
 			clear: both;
 			padding-left: 43px;
@@ -260,3 +262,14 @@ body {
 			}
 
 
+		.hide {
+			display: none;
+		}
+
+		.over {
+		    color: red !important;
+		}
+
+		.timeago {
+			font-size:.75em;position:relative;left:0px;color:#999;
+		}
